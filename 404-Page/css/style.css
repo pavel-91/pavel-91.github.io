@@ -1,0 +1,109 @@
+/* font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.body-bg {
+    background-image: url(/images/body-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.header__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__title {
+    font-family: 'Anton', sans-serif;
+    font-size: 85px;
+    color: #fff;
+}
+
+.header__descriptaion {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.clock__iner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.clock-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    color: #fff;
+    border: 5px solid #fff;
+    border-radius: 61px;
+    text-align: center;
+    padding: 30px;
+}
+
+/* form subscribe */
+.subscribe {
+    margin-top: 100px;
+}
+.input__name {
+    width: 514px;
+    margin-right: 25px;
+    padding: 15px 0;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #575757;
+}
+.input__submit {
+    padding: 15px 35px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 3px solid #fff;
+    cursor:pointer;
+    overflow: hidden;
+    color: #fff;
+    outline:none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* end form */
+.social__block {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.social__block-img {
+    width: 60px;
+    height: 60px;
+}
+
+.social__block-img + .social__block-img {
+    margin-left: 20px;
+}
+.footer__text {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 100px;
+}
