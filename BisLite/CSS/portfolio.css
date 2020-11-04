@@ -1,0 +1,40 @@
+@import url(reset.css);
+
+.wrapper {margin: 0 auto; max-width: 996px;}
+.clearfix::after {content: " "; display: table; clear: both;}
+.header {background: #e8ebf1; padding: 33px 0;}
+.logo-header {width: 148px; height: 37px; float: left; margin-right: 134px;}
+.menu-top {float: right; margin-top: 10px;}
+.menu-top li {display: inline-block; padding-left: 36px; line-height: 40px;}
+.menu-top a {text-decoration: none; text-transform: uppercase; color: #000000; font-weight: bold; font-size: 13px; padding: 5px 5px;}
+.menu-top a:hover {background: white; border-top: 4px solid #2aacc8;}
+.block-filtrs p {margin-top: 50px;}
+.block-filtrs img {vertical-align: middle;}
+.block-filtrs span {margin-left: 5px; font-size: 15px; color: black; font-weight: bold; text-transform: uppercase;}
+.filtrs {margin-top: 20px; border-top: 1px solid #dfe1e5; border-bottom: 1px solid #dfe1e5;}
+.filtrs li {display: inline-block; padding: 5px 10px; margin: 20px 0;}
+.filtrs li:hover {background: #81e4ed; cursor: pointer;}
+.content-block {padding-top: 10px; padding-bottom: 55px; border-bottom: 1px solid #dfe1e5;}
+.content-block img {margin-top: 45px; margin-right: 34px;}
+.content-block img:nth-child(4n + 4) {margin-right: 0;}
+.pagination {text-align: center; margin: 40px 0;}
+.pagination li {display: inline-block; padding: 5px 10px;}
+.pagination li:nth-child(7) {margin-left: 10px;}
+.pagination li:hover {background: #81e4ed; cursor: pointer;}
+footer {height: 318px; background: #e8ebf1;}
+.footer-top {padding-top: 34px;}
+.item-block  {float: left; margin-right: 58px;}
+.about {width: 220px;}
+.explore {width: 78px;}
+.explore a {color: #363636;}
+.browse {width: 78px;}
+.contact {width: 141px;}
+.connect-with-us {width: 186px; margin-right: 0;}
+.connect-with-us a {display: inline-block;}
+.connect-with-us a {padding-right: 6px; padding-bottom: 6px;}
+.connect-with-us h2 {padding-left: 7px;}
+.footer-top * h2 {font-size: 15px; font-weight: bold; text-transform: uppercase; padding-bottom: 16px;}
+.footer-top * p {line-height: 1.4; font-size: 14px; color: #363636}
+.footer-bottom {padding-top: 45px;}
+.footer-bottom .left {float: left; width: 848px;}
+.footer-bottom .left p {font-size: 13px; color: #363636; line-height: 1.5;}

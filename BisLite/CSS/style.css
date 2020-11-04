@@ -1,0 +1,63 @@
+@import url(reset.css);
+
+.wrapper {margin: 0 auto; max-width: 996px;}
+.clearfix::after {content: " "; display: table; clear: both;}
+.header {background: #e8ebf1; padding: 33px 0;}
+.logo-header {width: 148px; height: 37px; float: left; margin-right: 134px;}
+.menu-top {float: right; margin-top: 10px;}
+.menu-top li {display: inline-block; padding-left: 36px; line-height: 40px;}
+.menu-top a {text-decoration: none; text-transform: uppercase; color: #000000; font-weight: bold; font-size: 13px; padding: 5px 5px;}
+.block-slider {background: #81e4ed; height: 502px;}
+.menu-top a:hover {background: white; border-top: 4px solid #2aacc8;}
+.slider {padding-top: 20px;}
+.block-features {background: #e8ebf1; height: auto; padding: 30px 0; overflow: hidden;}
+.features-item {float: left; width: 215px; height: 190px; padding-right: 34px;}
+.features-item > img {margin-right: 17px; float: left;}
+.features-item b {font-size: 15px; font-weight: bold; text-transform: uppercase;}
+.features-item p {padding-top: 17px; padding-bottom: 15px; clear: both;}
+.latest-work {background: #ffffff;}
+.top-block {overflow: hidden; margin-top: 21px; border-bottom: 1px solid #dfe1e5; padding-bottom: 19px; margin-bottom: 19px;}
+.gallery {overflow: hidden; border-bottom: 1px solid #dfe1e5; padding-bottom: 40px;}
+.gallery-item {float: left; margin-right: 38px;}
+#item-fwo {margin-right: 0px;}
+.top-block-left {float: left;}
+.top-block-left b {font-size: 15px; font-weight: bold; text-transform: uppercase; margin-left: 25px;}
+.top-block-right {float: right; padding-top: 10px;}
+.content-block {padding-top: 20px;}
+.testimonials {width: 410px; float: left;}
+.label-testimonials b {font-size: 15px; font-weight: bold; text-transform: uppercase;}
+.label-testimonials img {float: left; margin-right: 15px;}
+.testimonials p {font-size: 14px; line-height: 1.5; margin-top: 18px;}
+.testimonials p span {font-size: 14px; font-weight: bold;}
+.clients {float: right; width: 482px;}
+.label-clients {padding-bottom: 18px;}
+.label-clients b {font-size: 15px; font-weight: bold; text-transform: uppercase;}
+.advertising-item {float: left; width: 160px; height: 101px; padding: 0px; margin: 0px;}
+.download {margin-top: 42px; margin-bottom: 42px; min-height: 139px; border: 1px solid #81e4ed; background: #e8fcfe;}
+.content-left {float: left; width: 609px; padding: 42px 30px;}
+.content-left p {font-size: 16px; line-height: 1.2;}
+.content-right {width: 325px; overflow: hidden; height: 141px;}
+.content-right a {display: inline-block; font-size: 18px; font-weight: bold; text-transform: uppercase; text-decoration: none; padding: 40px 40px;}
+footer {height: 318px; background: #e8ebf1;}
+.footer-top {padding-top: 34px;}
+.item-block  {float: left; margin-right: 58px;}
+.about {width: 220px;}
+.explore {width: 78px;}
+.explore a {color: #363636;}
+.browse {width: 78px;}
+.contact {width: 141px;}
+.connect-with-us {width: 186px; margin-right: 0;}
+.connect-with-us a {display: inline-block;}
+.connect-with-us a {padding-right: 6px; padding-bottom: 6px;}
+.connect-with-us h2 {padding-left: 7px;}
+.footer-top * h2 {font-size: 15px; font-weight: bold; text-transform: uppercase; padding-bottom: 16px;}
+.footer-top * p {line-height: 1.4; font-size: 14px; color: #363636}
+.footer-bottom {padding-top: 45px;}
+.footer-bottom .left {float: left; width: 848px;}
+.footer-bottom .left p {font-size: 13px; color: #363636; line-height: 1.5;}
+
+@media screen and (max-width: 1015px)
+{
+	.menu-top li {float: none;}
+	.menu-top a {display: inline-block; text-decoration: none; text-transform: uppercase; color: #000000; font-weight: bold; font-size: 13px; padding: 5px 5px;}
+}
