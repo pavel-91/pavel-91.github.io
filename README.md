@@ -9,3 +9,4 @@
 
 [Страница портфолио](pavel-91.github.io/Creative-Agency-Portfolio/) - Пример верстки страницы портфолио с применением flexbox - [Ссылка на гит](https://github.com/pavel-91/pavel-91.github.io/tree/master/Creative-Agency-Portfolio)
 
+[Страйт портфолио для компании](pavel-91.github.io/BisLite/) - Пример верстки страницы портфолио с применением flexbox - [Ссылка на гит](https://github.com/pavel-91/pavel-91.github.io/tree/master/BisLite)
