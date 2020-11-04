@@ -1,0 +1,32 @@
+@import url(reset.css);
+
+/*font-family: 'Open Sans', sans-serif;*/
+
+.wrapper {margin: 0 auto; max-width: 1200px;}
+
+.menu-top {margin-top: 20px; float: left; margin-bottom: 10px;}
+.menu-top li {display: inline-block; margin-left: 30px;}
+.menu-top li:first-child {margin-left: 0;}
+.menu-top li a {text-decoration: none; color: #808080; font-size: 13px; font-family: 'Open Sans', sans-serif; padding-bottom: 2px;}
+.menu-top li a:hover {border-bottom: 2px solid #009bab;}
+.user-block {float: right; margin-top: 20px; margin-bottom: 10px;}
+.user-block a {color: #808080; font-size: 13px; font-family: 'Open Sans', sans-serif; padding-left: 24px;}
+.user-block a:first-child {border-right: 1px solid #808080; padding-right: 31px; padding-left: 0;}
+.header-block {background: #008c9b; padding: 30px 0; clear: both;}
+.header-block .wrapper div {display: inline-block; margin-right: 8%; vertical-align: middle; width: auto;}
+.header-block .wrapper div:first-child {margin-left: 0;}
+.header-block .wrapper div:last-child {margin-right: 0;}
+.search-block {position: relative;}
+.saerch-input {border: none; padding: 11px 0; border-radius: 3px; width: 240px; color: #a0c4c8; font-size: 12px; font-weight: bold; padding-left: 15px; padding-right: 50px; font-style: italic;}
+.saerch-img {position: absolute; right: 1px; top: 1px; background: #328088; padding: 5px 10px; border-radius: 3px;}
+.contuct-block p {color: #fff; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 2;}
+.back_call-block {text-align: center;}
+.back_call-block p {color: #fff; font-family: 'Open Sans', sans-serif; font-size: 12px; font-weight: bold;}
+.back_call-block a {text-decoration: none; font-size: 14px; color: #00a1b2; background: #fff; padding: 15px 32px; border-radius: 5px; display: inline-block; margin-top: 5px;}
+.navigation-top {background: #008c9b; margin-top: 20px; border-radius: 4px; display: inline-block;}
+.navigation-block nav {display: inline-block;}
+.navigation-top li {display: inline-block; padding: 20px 42px;}
+.navigation-top li:hover {background: #42aab5; border-radius: 4px;}
+.navigation-top li a {color: #fff; font-size: 16px; font-family: 'Open Sans', sans-serif; text-decoration: none; font-weight: 700;}
+.navigation-top li a img {vertical-align: middle; margin-right: 24px;}
+.slider-block {margin-top: 40px;}
