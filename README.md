@@ -11,4 +11,4 @@
 
 [Главная страница интернет магазина](https://pavel-91.github.io/mobille-shop/) - Главная страница интернет магазина - [Ссылка на гит](https://github.com/pavel-91/pavel-91.github.io/tree/master/mobille-shop)
 
-[Страница портфолио](pavel-91.github.io/Creative-Agency-Portfolio/) - Пример верстки страницы портфолио с применением flexbox - [Ссылка на гит](https://github.com/pavel-91/pavel-91.github.io/tree/master/Creative-Agency-Portfolio)
+[Страница портфолио](https://pavel-91.github.io/Creative-Agency-Portfolio/) - Пример верстки страницы портфолио с применением flexbox - [Ссылка на гит](https://github.com/pavel-91/pavel-91.github.io/tree/master/Creative-Agency-Portfolio)
